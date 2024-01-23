@@ -2,10 +2,7 @@ import os, random
 
 #2 ország közti lakosság különbség
 def kulonbseg(orsz1, orsz2):
-    if(orsz1>orsz2):
-        return orsz1-orsz2
-    else:
-        return orsz2-orsz1
+    return abs(orsz1-orsz2)
     
 os.system("cls")
 #2 ország lakosság száma (8-20 millió között)
